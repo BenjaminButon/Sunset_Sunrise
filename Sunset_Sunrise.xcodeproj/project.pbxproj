@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		5005644B21AD77DA00BE1156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005644A21AD77DA00BE1156 /* AppDelegate.swift */; };
-		5005644D21AD77DA00BE1156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005644C21AD77DA00BE1156 /* ViewController.swift */; };
+		5005644D21AD77DA00BE1156 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005644C21AD77DA00BE1156 /* MainViewController.swift */; };
 		5005645021AD77DA00BE1156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5005644E21AD77DA00BE1156 /* Main.storyboard */; };
 		5005645221AD77DC00BE1156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5005645121AD77DC00BE1156 /* Assets.xcassets */; };
 		5005645521AD77DC00BE1156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5005645321AD77DC00BE1156 /* LaunchScreen.storyboard */; };
+		5005646121AD7EBB00BE1156 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005646021AD7EBB00BE1156 /* City.swift */; };
+		5080920C21AEC03E008B92B4 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080920B21AEC03E008B92B4 /* QueryService.swift */; };
+		5096498221B4596000983816 /* Sunrise-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5096498021B4596000983816 /* Sunrise-icon.png */; };
+		5096498321B4596000983816 /* Sunset-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5096498121B4596000983816 /* Sunset-icon.png */; };
+		50F5207921B18D3100EDCA39 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5207821B18D3100EDCA39 /* CityCell.swift */; };
+		50F5207B21B1992D00EDCA39 /* AddCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5207A21B1992D00EDCA39 /* AddCityController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5005644721AD77DA00BE1156 /* Sunset_Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunset_Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5005644A21AD77DA00BE1156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5005644C21AD77DA00BE1156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5005644C21AD77DA00BE1156 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5005644F21AD77DA00BE1156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5005645121AD77DC00BE1156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5005645421AD77DC00BE1156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5005645621AD77DC00BE1156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5005646021AD7EBB00BE1156 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		5080920B21AEC03E008B92B4 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		5096498021B4596000983816 /* Sunrise-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunrise-icon.png"; sourceTree = "<group>"; };
+		5096498121B4596000983816 /* Sunset-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset-icon.png"; sourceTree = "<group>"; };
+		50F5207821B18D3100EDCA39 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		50F5207A21B1992D00EDCA39 /* AddCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				5005644A21AD77DA00BE1156 /* AppDelegate.swift */,
-				5005644C21AD77DA00BE1156 /* ViewController.swift */,
+				5005644C21AD77DA00BE1156 /* MainViewController.swift */,
 				5005644E21AD77DA00BE1156 /* Main.storyboard */,
 				5005645121AD77DC00BE1156 /* Assets.xcassets */,
+				5096498021B4596000983816 /* Sunrise-icon.png */,
+				5096498121B4596000983816 /* Sunset-icon.png */,
 				5005645321AD77DC00BE1156 /* LaunchScreen.storyboard */,
 				5005645621AD77DC00BE1156 /* Info.plist */,
+				5005646021AD7EBB00BE1156 /* City.swift */,
+				5080920B21AEC03E008B92B4 /* QueryService.swift */,
+				50F5207821B18D3100EDCA39 /* CityCell.swift */,
+				50F5207A21B1992D00EDCA39 /* AddCityController.swift */,
 			);
 			path = Sunset_Sunrise;
 			sourceTree = "<group>";
@@ -124,6 +142,8 @@
 			files = (
 				5005645521AD77DC00BE1156 /* LaunchScreen.storyboard in Resources */,
 				5005645221AD77DC00BE1156 /* Assets.xcassets in Resources */,
+				5096498221B4596000983816 /* Sunrise-icon.png in Resources */,
+				5096498321B4596000983816 /* Sunset-icon.png in Resources */,
 				5005645021AD77DA00BE1156 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5005644D21AD77DA00BE1156 /* ViewController.swift in Sources */,
+				5080920C21AEC03E008B92B4 /* QueryService.swift in Sources */,
+				5005644D21AD77DA00BE1156 /* MainViewController.swift in Sources */,
+				50F5207B21B1992D00EDCA39 /* AddCityController.swift in Sources */,
+				50F5207921B18D3100EDCA39 /* CityCell.swift in Sources */,
 				5005644B21AD77DA00BE1156 /* AppDelegate.swift in Sources */,
+				5005646121AD7EBB00BE1156 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -290,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Inc.Sunset-Sunrise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Inc.Sunset-Sunrise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
