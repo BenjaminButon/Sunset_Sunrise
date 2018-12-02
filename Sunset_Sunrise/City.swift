@@ -9,12 +9,12 @@
 import Foundation
 
 class City{
-    let lat: Float
-    let lng: Float
+    let lat: Double
+    let lng: Double
     let name: String
     var sunrise: String?
     var sunset: String?
-    init(lat: Float, lng: Float, name: String) {
+    init(lat: Double, lng: Double, name: String) {
         self.lat = lat
         self.lng = lng
         self.name = name

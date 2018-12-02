@@ -74,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add city"/>
                                 <connections>
-                                    <segue destination="Ffp-Cp-j2W" kind="show" identifier="addCity" id="Qw4-Ke-8dR"/>
+                                    <action selector="addCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5BV-Tl-FZ1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,21 +88,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="133.5832083958021"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="q6c-Kz-MBD">
-            <objects>
-                <viewController id="Ffp-Cp-j2W" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HBF-Tv-sEF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="80M-0w-iZe"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lCg-GS-eZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="976" y="135"/>
         </scene>
     </scenes>
     <resources>

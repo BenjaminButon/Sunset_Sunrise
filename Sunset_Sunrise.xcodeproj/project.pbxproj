@@ -17,7 +17,7 @@
 		5096498221B4596000983816 /* Sunrise-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5096498021B4596000983816 /* Sunrise-icon.png */; };
 		5096498321B4596000983816 /* Sunset-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5096498121B4596000983816 /* Sunset-icon.png */; };
 		50F5207921B18D3100EDCA39 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5207821B18D3100EDCA39 /* CityCell.swift */; };
-		50F5207B21B1992D00EDCA39 /* AddCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5207A21B1992D00EDCA39 /* AddCityController.swift */; };
+		50F731F621B4855E006B12AA /* Geoposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F731F521B4855E006B12AA /* Geoposition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		5096498021B4596000983816 /* Sunrise-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunrise-icon.png"; sourceTree = "<group>"; };
 		5096498121B4596000983816 /* Sunset-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sunset-icon.png"; sourceTree = "<group>"; };
 		50F5207821B18D3100EDCA39 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
-		50F5207A21B1992D00EDCA39 /* AddCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityController.swift; sourceTree = "<group>"; };
+		50F731F521B4855E006B12AA /* Geoposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geoposition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				5005646021AD7EBB00BE1156 /* City.swift */,
 				5080920B21AEC03E008B92B4 /* QueryService.swift */,
 				50F5207821B18D3100EDCA39 /* CityCell.swift */,
-				50F5207A21B1992D00EDCA39 /* AddCityController.swift */,
+				50F731F521B4855E006B12AA /* Geoposition.swift */,
 			);
 			path = Sunset_Sunrise;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			files = (
 				5080920C21AEC03E008B92B4 /* QueryService.swift in Sources */,
 				5005644D21AD77DA00BE1156 /* MainViewController.swift in Sources */,
-				50F5207B21B1992D00EDCA39 /* AddCityController.swift in Sources */,
+				50F731F621B4855E006B12AA /* Geoposition.swift in Sources */,
 				50F5207921B18D3100EDCA39 /* CityCell.swift in Sources */,
 				5005644B21AD77DA00BE1156 /* AppDelegate.swift in Sources */,
 				5005646121AD7EBB00BE1156 /* City.swift in Sources */,

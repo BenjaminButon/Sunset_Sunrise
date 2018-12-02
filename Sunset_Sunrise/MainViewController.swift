@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         tableView.dataSource = self
         query = QueryService()
         query?.view = self
+        /*
         cities.append(City(lat: 36.7201600, lng: -4.4203400, name: "Хуй зна"))
         cities.append(City(lat: 49.838300, lng: 24.0232, name: "Lviv"))
         cities.append(City(lat: 49.838300, lng: 24.0232, name: "Lviv"))
@@ -30,17 +31,33 @@ class MainViewController: UIViewController {
         cities.append(City(lat: 49.838300, lng: 24.0232, name: "Lviv"))
         cities.append(City(lat: 49.838300, lng: 24.0232, name: "Lviv"))
         cities.append(City(lat: 49.838300, lng: 24.0232, name: "Lviv"))
-        query?.getRequestData(cities: &self.cities)
+ */
+        //query?.getSunData(cities: &self.cities)
+        query?.getCoordinates(cityName: "Lviv")
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "addCity", let addView = segue.destination as? AddCityController{
-            addView.superView = self
+    
+    func reload(){
+        query?.getSunData(cities: &self.cities)
+    }
+    
+    @IBAction func addCity(_ sender: UIButton) {
+        let alertController = UIAlertController(title: "Add city", message: "Type city name", preferredStyle: .alert)
+        alertController.addTextField(){ (textField) in
+            
         }
+        let action = UIAlertAction(title: "Add", style: .default){ (action) in
+            if let cityName = alertController.textFields?.first?.text{
+                self.query?.getCoordinates(cityName: cityName)
+                
+            }
+        }
+        alertController.addAction(action)
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 
